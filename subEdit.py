@@ -1,5 +1,5 @@
 import re
-from sys import argv
+from sys import argv, exit
 
 def parseFile(fileName):
     with open(fileName) as file:
